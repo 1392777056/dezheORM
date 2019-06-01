@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<orm-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=UTC;</property>
+    <property name="connection.driverClass">com.mysql.cj.jdbc.Driver</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password">root</property>
+
+    <mapping resource="cn/dezhe/orm/test/entity/Book.mapper.xml"></mapping>
+
+    <entity package="cn.dezhe.orm.test.entity"></entity>
+</orm-factory>
